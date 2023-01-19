@@ -8,6 +8,13 @@ public class Main {
        System.out.println("Health Boss: " + boss.getHealth() + " Damage Boss: " + boss.getDamage() + " Weapon type Boss: "
                + boss.getWeaponTypeBoss() + " Weapon name Boss: " + boss.getWeaponNameBoss());
 
+       System.out.println(boss.printInfo());
+
+       Skeleton skeletonMagik = new Skeleton(200, 20, WeaponType.FIREARMS, "magik orb", 5);
+       System.out.println(skeletonMagik.printInfo());
+       Skeleton skeletonPhysical = new Skeleton(200, 20, WeaponType.STEEL, "steel arrow", 5);
+       System.out.println(skeletonPhysical.printInfo());
+
    }
 
 
