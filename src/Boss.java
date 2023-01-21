@@ -8,8 +8,6 @@ public Boss(int Health, int Damage){
     this.setHealth(Health);
     this.setDamage(Damage);
 
-
-
 }
 
     public Weapon getBossWeapon() {

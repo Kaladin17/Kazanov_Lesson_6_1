@@ -8,8 +8,6 @@ public class Skeleton extends Boss{
         this.arrows = arrows;
     }
 
-
-
     public int getArrows() {
         return arrows;
     }
