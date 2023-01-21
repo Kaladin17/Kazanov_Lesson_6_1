@@ -3,4 +3,7 @@ public enum WeaponType {
     FIREARMS,
     THROWN;
 
+    WeaponType() {
+    }
+
 }
